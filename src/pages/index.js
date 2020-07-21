@@ -11,6 +11,7 @@ const IndexPage = () => (
       <title>Home - Screen</title>
     </Helmet>
     <h1>Home</h1>
+    <p>Testando</p>
   </Layout>
 );
 
