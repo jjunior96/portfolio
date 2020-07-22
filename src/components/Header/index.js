@@ -4,7 +4,7 @@ import * as S from './styled';
 
 const Header = () => (
   <S.HeaderWrapper>
-    <h1>Header</h1>
+    <S.HeaderPage>Home</S.HeaderPage>
   </S.HeaderWrapper>
 );
 

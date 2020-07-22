@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Header from '../Header';
 import Sidebar from '../Sidebar';
+import Content from '../Content';
 import Footer from '../Footer';
 
 import * as S from './styled';
@@ -14,7 +14,7 @@ const Layout = () => {
       <GlobalStyles />
       <S.LayoutMain>
         <Sidebar />
-        <Header />
+        <Content />
         <Footer />
       </S.LayoutMain>
     </S.LayoutWrapper>
