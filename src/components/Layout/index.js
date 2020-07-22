@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Header from '../Header';
-import Profile from '../Profile';
+import Sidebar from '../Sidebar';
 import Footer from '../Footer';
 
 import * as S from './styled';
@@ -13,7 +13,7 @@ const Layout = () => {
       {/* Reset Global */}
       <GlobalStyles />
       <S.LayoutMain>
-        <Profile />
+        <Sidebar />
         <Header />
         <Footer />
       </S.LayoutMain>
